@@ -14,8 +14,7 @@ It knows the context of query which can be useful to store all index related var
 npm install text-parser-genie --save
 ```
 ```javascript
-FILE : index.js
-var TextParserGenie = require('./index');
+var TextParserGenie = require('text-parser-genie');
 var parseOptions = {'file': './sometext.txt', 'wordDelimitter': ' '};
 var query = [ {
         'lineNumber': 2,
