@@ -1,6 +1,6 @@
 {
   "name": "text-parser-genie",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "parses text as human does",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,16 @@
     "email": "rsaipranav92@gmail.com",
     "url": "https://about.me/saipranav"
   },
-  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saipranav/text-parser-genie.git"
+  },
+  "bugs": {
+    { "url" : "https://github.com/owner/project/issues"
+, "email" : "project@hostname.com"
+}
+  },
+  "license": "MIT",
   "dependencies": {
     "string": "^3.3.1"
   },
